@@ -1,0 +1,36 @@
+{
+  "name": "Back-End",
+  "version": "1.0.0",
+  "description": "Back-End to AnyWhere Fitness",
+  "main": "index.js",
+  "repository": "https://github.com/Build-Week-Anywhere-FItness-2/Back-End.git",
+  "author": "Cory Murray",
+  "license": "MIT",
+
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "cross-env NODE_ENV=testing jest"
+  },
+
+  "engines": {
+    "node": "10.16.3"
+  },
+
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.4",
+    "sqlite3": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "cross-env": "^7.0.0",
+    "supertest": "^4.0.2"
+  }
+}
