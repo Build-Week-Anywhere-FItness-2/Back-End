@@ -9,7 +9,8 @@
 
   "scripts": {
     "server": "nodemon index.js",
-    "test": "cross-env NODE_ENV=testing jest"
+    "test": "cross-env NODE_ENV=testing jest",
+    "start": "node index.js"
   },
 
   "engines": {
