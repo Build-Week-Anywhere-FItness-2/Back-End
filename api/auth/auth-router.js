@@ -30,6 +30,7 @@ router.post('/register', (req, res) => {
   
           res.status(200).json({
             message: `ようこそ ${user.username}`,
+            
             token: token
           });
         } else {
