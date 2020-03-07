@@ -42,6 +42,19 @@ exports.up = function(knex) {
 
             tbl.string('description', 256);
 
+            tbl.string('class_type', 256);
+
+            tbl.string('class_time', 256);
+
+            tbl.string('class_date', 256);
+
+            tbl.string('intensity', 256);
+
+            tbl.string('location', 256);
+
+            tbl.integer("attendees")
+            .defaultTo(0);
+
             tbl.integer("open_spots")
                 .defaultTo(45);
 
